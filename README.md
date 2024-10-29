@@ -17,7 +17,9 @@ Whilst the demos are organised into numbered folders, they are not necessarily m
 
 The following demos are currently available:
 
-- [**01-mlapi-sklearn-pipeline**](01-mlapi-sklearn-pipeline): This demo shows how to create a simple Machine Learning (ML) API using Flama and Scikit-Learn. In the demo, we build from scratch an ML pipeline with simple (yet realistic) data preprocessing, training, and prediction steps. The demo shows how to package the pipeline as an FLM (*Flama Lightweight Model*) and deploy it as a REST API. The demo also shows how to use the API to make predictions from a simple web application. Finally, we customise the API's documentation and add a custom endpoint to the builtin endpoints provided by Flama. This demo was published as a [blog post](https://vortico.medium.com/introducing-flama-for-robust-machine-learning-apis-181098d76217).
+- [**01-mlapi-sklearn-pipeline**](01-mlapi-sklearn-pipeline): This demo shows how to create a simple Machine Learning (ML) API using Flama and Scikit-Learn. In the demo, we build from scratch an ML pipeline with simple (yet realistic) data preprocessing, training, and prediction steps. The demo shows how to package the pipeline as an FLM (*Flama Lightweight Model*) and deploy it as a REST API. The demo also shows how to use the API to make predictions from a simple web application. Finally, we customise the API's documentation and add a custom endpoint to the builtin endpoints provided by Flama. This demo was published as a [blog post](https://dev.to/vortico/introducing-flama-for-robust-machine-learning-apis-b3n).
+- [**02-jwt-protected-mlapis**](02-jwt-component): This demo shows how to secure a Machine Learning (ML) API using JSON Web Tokens (JWT). In the demo, we show how to add JWT-based authentication to the MLAPI with **flama** `JWTComponent`. We create a simple authentication system using JWT and secure the API's endpoints to only allow authenticated users to access them. This demo was published as a [blog post](https://dev.to/vortico/protected-ml-apis-with-flama-jwt-authentication-3emn).
+- [**03-domain-driven-design**](03-domain-driven-design): This demo shows how to implement a simple Domain-Driven Design (DDD) architecture in a `Flama` application. In the demo, we create a simple application that models a user registration system using DDD principles. We show how to create a domain model, repositories, and services to handle user registration and authentication. This demo was published as a [blog post](https://dev.to/vortico/native-domain-driven-design-with-flama-l9o).
 
 ## Usage
 
@@ -30,4 +32,3 @@ We welcome contributions from the community! If you have additional demos, impro
 ## License
 
 This repository is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). See the [`LICENSE`](LICENSE) file for more details.
-
