@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "flama-ddd-example"
+version = "0.1.0"
+description = ""
+authors = ["Vortico <vortico@vortico.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~=3.13.0"
+flama = {extras = ["full"], version = "^1.8.0"}
+aiosqlite = "0.20.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.24"
+black = "^24.8"
+isort = "^5.13"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+atomic = true
+multi_line_output = 3
+include_trailing_comma = true
+line_length = 120
+skip_glob = [
+    "*/.venv/**",
+    "*/docs/**",
+    "*/build/**",
+    "*/dist/**",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

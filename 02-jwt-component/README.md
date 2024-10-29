@@ -507,20 +507,6 @@ We hope you've found this post useful, and that you're now ready to implement JW
 
 Stay tuned for more posts on **flama** and other exciting topics in the world of AI and software development. Until next time!
 
-## Support our work
-
-If you like what we do, there is a free and easy way to support our work. Gifts us a ⭐ at [Flama](https://github.com/vortico/flama).
-
-GitHub ⭐'s mean a world to us, and give us the sweetest fuel to keep working on it to help others on its journey to build robust Machine Learning APIs. 
-
-You can also follow us on [𝕏](https://x.com/VorticoTech), where we share our latest news and updates, besides interesting threads on AI, software development, and much more.
-
-## References
-
-- [Flama documentation](https://flama.dev/docs/)
-- [Flama GitHub repository](https://github.com/vortico/flama)
-- [Flama PyPI package](https://pypi.org/project/flama/)
-
 ## About the authors
 
 - [Vortico](https://vortico.tech/): We're specialised in software development to help businesses enhance and expand their AI and technology capabilities.
